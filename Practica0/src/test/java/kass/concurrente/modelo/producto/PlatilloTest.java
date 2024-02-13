@@ -20,7 +20,7 @@ class PlatilloTest {
         p2 = new Platillo("Test",10);
         productos = new ArrayList<>();
         annadeProductos();
-        p3 = new Platillo(productos,10.,10,"Test3");
+        p3 = new Platillo(productos,10,"Test3");
     }
 
     void annadeProductos(){
